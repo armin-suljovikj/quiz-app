@@ -11,3 +11,263 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  background-color: #7cc6fe;
+  display: flex;
+  direction:column;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  margin:5%;
+
+}
+
+.container {
+  background-color: #252d4a;
+  min-height: 10vh;
+  height: min-content;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: space-evenly;
+  width:80%;
+  margin:auto;
+  margin-bottom:7%;
+}
+
+
+.textField{
+  width:100%;
+  background:white;
+  border-radius:5px;
+}
+
+.menuItem{
+  color:black;
+}
+
+.textFieldContainer{
+  margin:10%;
+  display:flex;
+  justify-content:center; 
+}
+
+.buttonCenterContainer{
+  margin:10%;
+  display:flex;
+  justify-content:space-around;
+}
+
+button {
+  width: 100%;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #252d4a;
+  border-radius: 15px;
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #234668;
+  cursor: pointer;
+}
+
+.buttonWidth{
+  width: 100%;
+}
+
+button:hover {
+  background-color: #555e7d;
+}
+
+button:focus {
+  outline: none;
+}
+
+button svg {
+  margin-right: 5px;
+}
+
+.score-section {
+  display: flex;
+  font-size: 24px;
+  align-items: center;
+  color:white;
+}
+
+/* QUESTION/TIMER/LEFT SECTION */
+.question-section {
+  width: 50%;
+  position: relative;
+}
+
+.question-count {
+  margin-bottom: 20px;
+  color:white;
+}
+
+.question-count span {
+  font-size: 28px;
+  color:white;
+}
+
+.question-text {
+  margin-bottom: 12px;
+  color:white;
+}
+
+.timer-text {
+  background: rgb(230, 153, 12);
+  padding: 15px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border: 5px solid rgb(255, 189, 67);
+  border-radius: 15px;
+  text-align: center;
+}
+
+.answer-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.subHeader{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  background-color:#007bff;
+  width:70%;
+  border-radius:5px;
+  border: 5px solid white;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin-left:5%;
+  margin-right:5%;
+  
+}
+
+.header{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  margin:2%;
+  justify-content:space-between;
+
+}
+
+.title{
+  color:white;
+  font-family: Segoe Print;
+  min-height: 100%;
+  font-size:4vh;
+  font-weight:bold; 
+  text-decoration:none; 
+}
+
+.points{
+  color:white;
+  font-family: Segoe Print;
+  font-size:2vh;
+  font-weight:900;
+
+}
+
+hr{
+  color:white;
+}
+
+.questionsContainer {
+  background-color: #252d4a;
+  min-height: 10vh;
+  height: min-content;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom:7%;
+  width:50%;
+}
+
+.questionContainer {
+  background-color: #252d4a;
+  min-height: 10vh;
+  /* height: min-content; */
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  margin:auto;
+  justify-content: space-evenly;
+  margin-bottom:7%;
+  width:80%;
+  height:100%;
+}
+
+#root {
+  height:100%;
+  width:100%;
+}
+
+.centerElement{
+  display:flex;
+  justify-content:center;
+}
+
+@media only screen and (min-width : 992px) {
+
+  .questionContainer {
+    background-color: #252d4a;
+    min-height: 10vh;
+    /* height: min-content; */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    margin:auto;
+    justify-content: space-evenly;
+    margin-bottom:2%;
+    width:30%;
+    height:100%;
+  }
+
+  .container {
+    background-color: #252d4a;
+    min-height: 10vh;
+    height: min-content;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: space-evenly;
+    width:40%;
+    margin:auto;
+    margin-bottom:2%;
+  }
+
+  .textField{
+    width:20%;
+    background:white;
+    border-radius:5px;
+  }
+
+  .textFieldContainer{
+    margin:2%;
+    display:flex;
+    justify-content:center; 
+  }
+
+  .buttonCenterContainer{
+    margin:2%;
+    display:flex;
+    justify-content:center; 
+  }
+
+    .buttonWidth{
+      width:33%;
+    }
+
+}
