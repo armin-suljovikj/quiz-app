@@ -18,10 +18,10 @@ The app was built mainly using functional components and hooks, also using the f
 - The questions are retrieved via an API from https://opentdb.com using Axios.
 
 # Commands needed to run the app
-npm install @mui/material @emotion/react @emotion/styled
-npm add react-toastify
-npm i react-router-dom
-npm i axios
+- npm install @mui/material @emotion/react @emotion/styled
+- npm add react-toastify
+- npm i react-router-dom
+- npm i axios
 
 # Credits
 Credits go to https://github.com/piyush-eon and to https://github.com/chrisblakely01
